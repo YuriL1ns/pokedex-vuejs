@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600;700&display=swap');
+$body-font-family: "Baloo Bhaina 2";
+$title-font: "Teko";
+$bug: #a8b820;
+$dark: #705848;
+$dragon: #7038f8;
+$electric: #f8d030;
+$fairy: #ee99ac;
+$fighting: #c03028;
+$fire: #f08030;
+$flying: #a890f0;
+$ghost: #705898;
+$grass: #78c850;
+$ground: #e0c068;
+$ice: #98d8d8;
+$normal: #a8a878;
+$poison: #a040a0;
+$psychic: #f85888;
+$rock: #b8a038;
+$steel: #b8b8d0;
+$water: #6890f0;
+$unknown: #68a090;
+
+$light-bug: #C6D16E;
+$light-dark: #A29288;
+$light-dragon: #A27DFA;
+$light-electric: #FAE078;
+$light-fairy: #F4BDC9;
+$light-fighting: #D67873;
+$light-fire: #F5AC78;
+$light-flying: #C6B7F5;
+$light-ghost: #A292BC;
+$light-grass: #A7DB8D;
+$light-ground: #EBD69D;
+$light-ice: #BCE6E6;
+$light-normal: #C6C6A7;
+$light-poison: #C183C1;
+$light-psychic: #FA92B2;
+$light-rock: #D1C17D;
+$light-steel: #D1D1E0;
+$light-water: #9DB7F5;
+$light-unknown: #9DC1B7;
+
+div#app {
+    background: url('../images/logo.png') no-repeat;
+    background-position: 50% 0%;
+    background-size: 50%;
+    
+    
+
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    color: #3267B0;
+    padding-top: 15%;
+}
+
+h2 {
+    color: #3267B0;
+}
+
+.txt-search .v-input__slot {
+    background: #ffffffa8 !important;
+}
+.poke__card {
+    
+    background: url('../images/pokeball-vector-gray-30.png') no-repeat;
+    background-position: 89% -17px;
+    background-size: 90px;
+    
+
+    
+}
+.poke__card-id {
+    font-size: 15px;
+    font-weight: 700;
+}
+.poke__card-img {
+    display: block;
+    position: absolute;
+    top: -25px;
+    font-size: 90px;
+    height: 120%;
+    width: 100%;
+    right: 20px;
+    text-align: right;
+    
+}
+.v-card__text.pokemon__container {
+    background: url('../images/bg-transparent-pokeball-vector-white.png') no-repeat;
+    background-position: 50% 0%;
+    background-size: contain;
+    
+}
+.v-card__text.pokemon__container {
+    padding: 0 !important;
+    position: relative;
+}
+.bg-pokemon__name {
+    color: #f7f7f7;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #f7f7f7;
+    font-size: 80px;
+    font-weight:700;
+    opacity: 0.2;
+    text-transform: uppercase;
+    position: absolute;
+    justify-content: center;
+    left: 5px;
+    top: -10px;
+}
+.bg-pokemon__namefadeout {
+    position: absolute;
+    width: 100%;
+    height: 6em;
+    margin: auto;
+    top: -20px;
+}
+.pokemon__title, .mdl__close {
+    z-index: 1;
+}
+.pokemon__information {
+    background: #fff;
+    padding: 15px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+.poke__dialog,
+.gen__dialog {
+    border-top-left-radius: 30px !important;
+    border-top-right-radius: 30px !important;
+}
+.gen__dialog {
+    height: 85%;
+    bottom: 0;
+    top: unset !important;
+    box-shadow: 0px 0px 100px 100px rgba(0,0,0,0.5);
+}
+.gen__dialog:before {
+    content: "";
+    width: 30%;
+    display: block;
+    height: 10px;
+    background: #33cc66;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    z-index: 1;
+    margin: auto;
+}
+.generation__card {
+    position: relative;
+    background: url("/img/pokeball-vector-gray-30.8bdc9661.png") no-repeat;
+    background-position: 50%;
+    background-size: 200px;
+}
+.generation__card:hover {
+    background: url("/img/pokeball-vector-gray-30.8bdc9661.png") no-repeat, #33cc66;
+    background-position: 50%;
+    background-size: 200px;
+    transition: background-color .2s ease, color .2s ease;
+}
+.generation__card:hover .generation__title {
+    color: #ffffff;
+    transition: background-color .2s ease, color .2s ease;
+}
+
+/** Type of Pokemon Color */
+.bg-bug {
+    background: $bug !important;
+}
+.bg-dark {
+    background: $dark !important;
+}
+.bg-dragon {
+    background: $dragon !important;
+}
+.bg-electric {
+    background: $electric !important;
+}
+.bg-fairy {
+    background: $fairy !important;
+}
+.bg-fighting {
+    background: $fighting !important;
+}
+.bg-fire {
+    background: $fire !important;
+}
+.bg-flying {
+    background: $flying !important;
+}
+.bg-ghost {
+    background: $flying !important;
+}
+.bg-grass {
+    background: $grass !important;
+}
+.bg-ground {
+    background: $ground !important;
+}
+.bg-ice {
+    background: $ice !important;
+}
+.bg-normal {
+    background: $normal !important;
+}
+.bg-poison {
+    background: $poison !important;
+}
+.bg-psychic {
+    background: $psychic !important;
+}
+.bg-rock {
+    background: $rock !important;
+}
+.bg-steel {
+    background: $steel !important;
+}
+.bg-water {
+    background: $water !important;
+}
+.bg-unknown {
+    background: $unknown !important;
+}
+.bg-light-bug {
+    background: $light-bug !important;
+}
+.bg-light-dark {
+    background: $light-dark !important;
+}
+.bg-light-dragon {
+    background: $light-dragon !important;
+}
+.bg-light-electric {
+    background: $light-electric !important;
+}
+.bg-light-fairy {
+    background: $light-fairy !important;
+}
+.bg-light-fighting {
+    background: $light-fighting !important;
+}
+.bg-light-fire {
+    background: $light-fire !important;
+}
+.bg-light-flying {
+    background: $light-flying !important;
+}
+.bg-light-ghost {
+    background: $light-flying !important;
+}
+.bg-light-grass {
+    background: $light-grass !important;
+}
+.bg-light-ground {
+    background: $light-ground !important;
+}
+.bg-light-ice {
+    background: $light-ice !important;
+}
+.bg-light-normal {
+    background: $light-normal !important;
+}
+.bg-light-poison {
+    background: $light-poison !important;
+}
+.bg-light-psychic {
+    background: $light-psychic !important;
+}
+.bg-light-rock {
+    background: $light-rock !important;
+}
+.bg-light-steel {
+    background: $light-steel !important;
+}
+.bg-light-water {
+    background: $light-water !important;
+}
+.bg--lightunknown {
+    background: $light-unknown !important;
+}
