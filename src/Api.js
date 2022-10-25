@@ -1,7 +1,10 @@
 import axios from "axios";
 
 const http = axios.create({
-  baseURL: "http://localhost:8080",
+  baseURL:
+    process.env.NODE_ENV === "production"
+      ? "https://quiet-zuccutto-43d0fc.netlify.app/"
+      : "http://localhost:8080",
 });
 
 var img = "";
