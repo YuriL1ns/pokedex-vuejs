@@ -5,8 +5,8 @@
   Coded by Yuri Lins
 </h1>
 <p align="center">
-  <a href="Desafio Técnico solicitado pela Copybase para a vaga de Frontend Developer." target="_blank">
-    <img src="Desafio Técnico solicitado pela Copybase para a vaga de Frontend Developer." alt="Netlify Status" />
+  <a href="https://app.netlify.com/sites/pokedex-vuejs/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/fd188fa7-eb55-4ffe-94e5-b9588e7193f7/deploy-status" alt="Netlify Status" />
   </a>
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/yuril1ns/pokedex-vue.js">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/yuril1ns/pokedex-vue.js">
